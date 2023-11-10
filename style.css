@@ -51,7 +51,7 @@ a {
     display: grid;
     row-gap: 3.5rem;
     grid-template-rows: repeat(2, max-content);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /*===== product =====*/
@@ -133,6 +133,7 @@ a {
 
 .data__description {
     font-size: 1rem;
+    margin-bottom: .7rem;
 }
 
 .actions {
@@ -388,7 +389,7 @@ a {
     }
 
     .data__subtitle {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .data__title {
